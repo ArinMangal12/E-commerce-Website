@@ -1,0 +1,33 @@
+@media screen and (max-width:1000px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 10px 0;
+    }
+    nav ul{
+        display: flex;
+        height:30px;
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+    }
+    .search input{
+        margin: 0 7px 0 0;
+    }
+    .sign{
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-start;
+        margin: 10px 2vw;
+    }
+    .slider{
+        height: 40vh;
+    }
+    .box-item img{
+        width: 140px;
+    }
+}
